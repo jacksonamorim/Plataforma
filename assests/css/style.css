@@ -269,6 +269,73 @@ footer{
 }
 
 /* TELA DE LOGIN */
+.section-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 0 4px 2px #33353B;
+    border-radius: 15px;
+    transition: inherit;
+}
+.section-signin{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: #202225;
+    border-radius: 20px 0px 0px 20px;
+}
+.section-signin form, 
+.section-signin label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.section-signin label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.section-signin label input{
+    background-color: inherit;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    padding: 10px 0px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: inherit;
+}
+.section-signin button{
+    margin-top: 20px;
+    padding: 10px 0px;
+    font-size: 15px;
+    background-color: #0265A2;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+.section-signin a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+    margin-top: 40px;
+}
+.section-signin p{
+    margin-top: 60px;
+    font-size: 11px;
+    color: #999999;
+}
+.section-slide{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
 
 
 /* LIGHT MODE */
@@ -308,4 +375,10 @@ footer{
 }
 .footer-color{
     background-color: #DDDDDD;
+}
+.login-color{
+    box-shadow: 0 0 4px 2px #cacaca;
+}
+.signin-color{
+    background-color: #FFFFFF;
 }
