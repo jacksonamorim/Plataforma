@@ -23,6 +23,7 @@ aside{
     color: #FFF;
     background-color:#2F3136;
     transition: all ease .4s;
+    fill: #FFF;
 }
 .aside-buttom{
     display: inline-flex;
@@ -56,6 +57,9 @@ aside{
     cursor: pointer;
 }
 .menu li a{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
     color: inherit;
     text-decoration: none;
 }
@@ -63,14 +67,21 @@ aside{
     border-left: 6px solid #FFF;
     color: #FFF;
 }
+.menu li.active svg{
+    fill: #FFF;
+}
+.menu li.active:hover{
+    background-color: #2F3136;
+    border-left: 6px solid #FFF;
+}
 .menu li:hover{
     border-left: 6px solid #777; 
     background-color: #2F3136;  
 }
-.menu li:hover:first-child{
-    border-left: 6px solid #FFF;
-}
-.menu li i{
+.menu li svg{
+    fill: #777;
+    height: 30;
+    width: 30;
     margin-right: 25px;
 }
 
@@ -90,8 +101,19 @@ header .options a{
 }
 header .options div{
     margin-left: 40px;
+    cursor: pointer;
 }
-
+header .option-light,
+header .option-dark{
+    width: 25;
+    height: 25;
+    fill: #777;
+    transition: inherit;
+}
+header .option-light:hover,
+header .option-dark:hover{
+    fill: inherit;
+}
 main{
     flex: 1;
     display: flex;
@@ -141,7 +163,7 @@ main{
     background-color: #202225;
     box-shadow: 0px 0px 3px #777;
     cursor: pointer;
-    transition: all ease .3s;
+    transition: all ease .4s;
 }
 .section-categories div:hover{
     background-color: #000;
@@ -354,6 +376,7 @@ footer{
 .conteudo-color{
     background-color: #EEE;
     color: #000;
+    fill: #000;
 }
 .section-categories-color div{
     background-color: #FFF;
@@ -373,6 +396,10 @@ footer{
 }
 .menu-color li.active:hover{
     border-left: 6px solid #0C3168;
+    background-color: #EEE;
+}
+.menu-color li.active svg{
+    fill: #0C3168;
 }
 .section-course--color{
     background-color: #FFF;

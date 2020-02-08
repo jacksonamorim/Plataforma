@@ -33,11 +33,16 @@ s('.option-dark').addEventListener('click', () => {
     })
 });
 
+
+/*FUNCIONALIDADES DA TELA DE LOGIN */
+
 s('.option-light').addEventListener('click', ()=>{
     s('.section-signin').classList.add('signin-color');
     s('.section-login').classList.add('login-color');
-})
+    s('.option-dark.selected').classList.remove('selected');
+});
+
 s('.option-dark').addEventListener('click', ()=>{
     s('.section-signin').classList.remove('signin-color');
     s('.section-login').classList.remove('login-color');
-})
+});
