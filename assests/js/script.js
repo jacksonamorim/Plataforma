@@ -38,11 +38,11 @@ s('.option-dark').addEventListener('click', () => {
 
 s('.option-light').addEventListener('click', ()=>{
     s('.section-signin').classList.add('signin-color');
-    s('.section-login').classList.add('login-color');
-    s('.option-dark.selected').classList.remove('selected');
+    s('.section-login').classList.add('login-color');   
 });
 
 s('.option-dark').addEventListener('click', ()=>{
     s('.section-signin').classList.remove('signin-color');
     s('.section-login').classList.remove('login-color');
+    s('.option-light.selected').classList.remove('selected');
 });

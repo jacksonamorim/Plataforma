@@ -32,6 +32,13 @@ aside{
     margin-bottom: 20px;
     padding: 10px;
     cursor: pointer;
+    fill: inherit;
+    margin-top: 10px;
+}
+.aside-buttom svg{
+    width: 30;
+    height: 30;
+    fill: #FFF;
 }
 .menu{
     display: flex;
@@ -112,6 +119,9 @@ header .option-dark{
 }
 header .option-light:hover,
 header .option-dark:hover{
+    fill: inherit;
+}
+.option-dark.selected{
     fill: inherit;
 }
 main{
@@ -371,7 +381,9 @@ footer{
 /* LIGHT MODE */
 .aside-color{
     background-color: #FFF;
-    color: #0C3168;
+}
+.aside-color svg{
+    fill: #0C3168;
 }
 .conteudo-color{
     background-color: #EEE;
