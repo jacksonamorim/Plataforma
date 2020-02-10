@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
     display: flex;
@@ -18,12 +18,26 @@ aside{
     color: #FFF;
     transition: all ease .5s;
 }
+.icons {
+    width: 40px;
+    height: 40px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.size {
+    height: 25px;
+    width: 25px;
+    stroke: #777;
+}
 .conteudo{
     flex: 1;
     color: #FFF;
     background-color:#2F3136;
     transition: all ease .4s;
-    fill: #FFF;
+    stroke: #FFF;
 }
 .aside-buttom{
     display: inline-flex;
@@ -32,13 +46,11 @@ aside{
     margin-bottom: 20px;
     padding: 10px;
     cursor: pointer;
-    fill: inherit;
+    stroke: inherit;
     margin-top: 10px;
 }
 .aside-buttom svg{
-    width: 30;
-    height: 30;
-    fill: #FFF;
+    stroke: #FFF;
 }
 .menu{
     display: flex;
@@ -75,7 +87,7 @@ aside{
     color: #FFF;
 }
 .menu li.active svg{
-    fill: #FFF;
+    stroke: #FFF;
 }
 .menu li.active:hover{
     background-color: #2F3136;
@@ -86,10 +98,10 @@ aside{
     background-color: #2F3136;  
 }
 .menu li svg{
-    fill: #777;
-    height: 30;
-    width: 30;
-    margin-right: 25px;
+    stroke: #777;
+    height: 25px;
+    width: 25px;
+    margin-right: 27px;
 }
 
 header{
@@ -110,19 +122,15 @@ header .options div{
     margin-left: 40px;
     cursor: pointer;
 }
-header .option-light,
-header .option-dark{
-    width: 25;
-    height: 25;
-    fill: #777;
-    transition: inherit;
+header svg{
+    transition: all ease .5s;
 }
-header .option-light:hover,
-header .option-dark:hover{
-    fill: inherit;
+header .option-light svg:hover,
+header .option-dark svg:hover{
+    stroke: inherit;
 }
 .option-dark.selected{
-    fill: inherit;
+    stroke: inherit;
 }
 main{
     flex: 1;
@@ -383,12 +391,12 @@ footer{
     background-color: #FFF;
 }
 .aside-color svg{
-    fill: #0C3168;
+    stroke: #0C3168;
 }
 .conteudo-color{
     background-color: #EEE;
     color: #000;
-    fill: #000;
+    stroke: #000;
 }
 .section-categories-color div{
     background-color: #FFF;
@@ -411,7 +419,7 @@ footer{
     background-color: #EEE;
 }
 .menu-color li.active svg{
-    fill: #0C3168;
+    stroke: #0C3168;
 }
 .section-course--color{
     background-color: #FFF;
