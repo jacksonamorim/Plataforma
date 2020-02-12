@@ -49,7 +49,7 @@
                         <use xlink:href="../images/icons/feather-sprite.svg#sun"/>
                     </svg>
                 </div>
-                <div class="option-dark">
+                <div class="option-dark selected">
                     <svg class="icons size">
                         <use xlink:href="../images/icons/feather-sprite.svg#moon"/>
                     </svg>
@@ -77,14 +77,52 @@
                             <p>Nos acompanhe em nossas redes sociais</p>
                             <div class="section-footer--social">
                                 <div class="section-footer--social-icons">
-                                    <i class="fab fa-instagram fa-lg"></i>
-                                    <i class="fab fa-facebook-f fa-lg"></i>
-                                    <i class="fab fa-youtube fa-lg"></i>
+                                    <a href="">
+                                        <svg class="icons size">
+                                            <use xlink:href="../images/icons/feather-sprite.svg#instagram"/>
+                                        </svg>
+                                    </a>
+                                    <a href="">
+                                        <svg class="icons size">
+                                            <use xlink:href="../images/icons/feather-sprite.svg#facebook"/>
+                                        </svg>
+                                    </a>
+                                    <a href="">
+                                        <svg class="icons size">
+                                            <use xlink:href="../images/icons/feather-sprite.svg#youtube"/>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="section-slide">
-                            SLIDE AQUI
+                            <div class="slideshow" id="slideshow">
+                                <div class="slideshowarea">
+                                    <div class="slide">
+                                        <h2>Já viu a novidade 1?</h2>
+                                        <div class="slide-img"></div>
+                                        <p>Nome do curso</p>
+                                        <button>Ver mais</button>
+                                    </div>
+                                    <div class="slide">
+                                        <h2>Já viu a novidade 2?</h2>
+                                        <div class="slide-img"></div>
+                                        <p>Nome do curso</p>
+                                        <button>Ver mais</button>
+                                    </div>
+                                    <div class="slide">
+                                        <h2>Já viu a novidade 3?</h2>
+                                        <div class="slide-img"></div>
+                                        <p>Nome do curso</p>
+                                        <button>Ver mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-indicators">
+                                <div class="indicator ativo" onclick="mudarSlide(0)"></div>
+                                <div class="indicator" onclick="mudarSlide(1)"></div>
+                                <div class="indicator" onclick="mudarSlide(2)"></div>
+                            </div>
                         </div>
                     </div>
                 </section>
