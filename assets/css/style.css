@@ -417,7 +417,7 @@ footer{
     width: 1000px;
     display: flex;
     align-items: center;
-    transition: all .7s;
+    transition: all .5s;
 }
 .slide{
     width: 300px;
