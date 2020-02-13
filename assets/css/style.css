@@ -427,6 +427,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: inherit;
 }
 .slide h2{
     text-transform: uppercase;
@@ -471,11 +472,12 @@ footer{
     height: 10px;
     margin-right: 10px;
     border-radius: 5px;
-    border: 1px solid #FFF;
+    border: 1px solid;
     cursor: pointer;
+    transition: all .5s;
 }
 .indicator.ativo{
-    background-color: #FFFFFF;
+    background-color: #999999;
 }
 
 
