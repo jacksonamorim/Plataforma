@@ -385,7 +385,11 @@ footer{
     border: 0;
     border-radius: 5px;
     color: #FFFFFF;
-
+    cursor: pointer;
+    transition: all .5s;
+}
+.section-signin button:hover{
+    background-color: #005082;
 }
 .section-signin a{
     text-decoration: none;
