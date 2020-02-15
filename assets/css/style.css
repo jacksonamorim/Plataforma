@@ -251,9 +251,10 @@ main{
     height: 150px;
     padding: 0px 10px;
     border-radius: 5px;
+    transition: transform .5s;
 }
 .section-course--thumb:hover{
-    background-size: cover;   
+   transform: scale(.9);
 }
 .section-course--cursos p{
     padding-top: 10px;
