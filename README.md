@@ -6,10 +6,11 @@ Recriei o Front-End da plataforma de cursos da B7Web, colocando em prática por 
 - HTML
 - CSS
 - Javascript
-<hr>
+
 #### Botões em funcionamento
 - Home
 - Login
 - Dots do Slide
 - Dark Mode
+<br>
 [Clique aqui](http://jacksonamorim.github.io/Plataforma) para ver o resultado na prática.
