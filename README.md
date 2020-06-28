@@ -1,5 +1,11 @@
 # Plataforma
-Recriando o frontend da plataforma b7web (Colocando em prática o aprendizado de HTML, CCS e JavaScript)
 
+Front-End da plataforma de cursos da B7Web. 
+
+Usando as seguintes tecnologias:
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<hr>
 Clique no link abaixo para ver o resultado.
 <li>http://jacksonamorim.github.io/Plataforma</li>
