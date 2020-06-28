@@ -1,11 +1,15 @@
 # Plataforma
 
-Front-End da plataforma de cursos da B7Web. 
+Recriei o Front-End da plataforma de cursos da B7Web, colocando em prática por conta própria o aprendizado obtido nos cursos da mesma. 
 
-Usando as seguintes tecnologias:
-<li>HTML</li>
-<li>CSS</li>
-<li>Javascript</li>
+#### Usando as seguintes tecnologias
+- HTML
+- CSS
+- Javascript
 <hr>
-Clique no link abaixo para ver o resultado.
-<li>http://jacksonamorim.github.io/Plataforma</li>
+#### Botões em funcionamento
+- Home
+- Login
+- Dots do Slide
+- Dark Mode
+[Clique aqui](http://jacksonamorim.github.io/Plataforma) para ver o resultado na prática.
