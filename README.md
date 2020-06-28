@@ -12,5 +12,5 @@ Recriei o Front-End da plataforma de cursos da B7Web, colocando em prática por 
 - Login
 - Dots do Slide
 - Dark Mode
-<br>
+
 [Clique aqui](http://jacksonamorim.github.io/Plataforma) para ver o resultado na prática.
